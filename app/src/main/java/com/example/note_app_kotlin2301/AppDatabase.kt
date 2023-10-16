@@ -5,5 +5,7 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [User::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
+
+    //just testing the remote
     abstract fun userDao(): UserDao
 }
